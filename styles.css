@@ -1,0 +1,65 @@
+body {
+    color: rgb(233, 190, 190);
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: rgb(195, 14, 8);
+}
+.nav.navbar-nav.nav-item nav-link a{
+    color: white;
+}
+
+.embed-responsive img{
+    width:100%;
+    height: 750px;
+}
+
+.jumbotron img{
+    width: 100%;
+    height: 125px;
+}
+/* .vertical-align {
+    letter-spacing: -4px;
+    font-size: 0;
+}
+  
+.vertical-align .col-xs-4 {
+    vertical-align: middle;
+    display: inline-block;
+    letter-spacing: 0;
+    font-size: 14px;
+    float: none;
+} */
+
+footer {
+    padding: 1rem;
+    background-color: rgb(195, 14, 8);
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    color: white;
+}
+
+.hero-background-img {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+    padding-top:200px;  
+    padding-bottom:200px;
+}
+
+.hero-background-img:after {
+    content: "";
+    position: absolute;
+    background-image: url("fishy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
